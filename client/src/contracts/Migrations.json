@@ -59,7 +59,7 @@
   "sourceMap": "69:326:2:-;;;229:52;8:9:-1;5:2;;;30:1;27;20:12;5:2;229:52:2;265:10;257:5;;:18;;;;;;;;;;;;;;;;;;69:326;;;;;;",
   "deployedSourceMap": "69:326:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:326:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;119:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;94:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;287:105;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;287:105:2;;;;;;;;;;;;;;;;;:::i;:::-;;119:36;;;;:::o;94:20::-;;;;;;;;;;;;;:::o;287:105::-;209:5;;;;;;;;;;;195:19;;:10;:19;;;191:26;;;377:9;350:24;:36;;;;191:26;287:105;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.21 <0.7.0;\r\n\r\ncontract Migrations {\r\n  address public owner;\r\n  uint public last_completed_migration;\r\n\r\n  modifier restricted() {\r\n    if (msg.sender == owner) _;\r\n  }\r\n\r\n  constructor() public {\r\n    owner = msg.sender;\r\n  }\r\n\r\n  function setCompleted(uint completed) public restricted {\r\n    last_completed_migration = completed;\r\n  }\r\n}\r\n",
-  "sourcePath": "D:\\Projects\\Personal\\Blockchain-Crowdfunding-App\\contracts\\Migrations.sol",
+  "sourcePath": "D:\\College\\TY\\SEM 2\\CP\\CS\\Blockchain-Crowdfunding-App\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -958,13 +958,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x33ae19b4C5736B01F31Bfd26ceb97c10Ea8C3b77",
-      "transactionHash": "0x3b5555d7ca67802bbdc48a0fd6422ff3bef24b56c3baa9f179a26bf045ca830c"
+      "address": "0x48f5f4a3e28cfdf33CDc32949d9d96BCebEC58ec",
+      "transactionHash": "0xa90ab147d697a54692759c57214720f83a9a536fdb1a54cec5dfe0841beb3e72"
     }
   },
-  "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-30T17:43:41.338Z",
-  "networkType": "ethereum",
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-04-29T21:05:49.614Z",
   "devdoc": {
     "methods": {}
   },
